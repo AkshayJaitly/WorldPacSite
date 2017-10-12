@@ -50,6 +50,17 @@ body {
 .sidenav a:hover {
     color: #f1f1f1;
 }
+	
+imageContainer{
+        position: absolute;
+        width: 100px; /*the image width*/
+        height: 100px; /*the image height*/
+        left: 50%;
+        top: 50%;
+        margin-left: -50px; /*half the image width*/
+        margin-top: -50px; /*half the image height*/
+    }
+	
 .main {
     margin-left: 200px; 
 }
@@ -74,8 +85,8 @@ body {
  <h2>Login</h2>
 	</div>
 
-<div class="profileimg-container">
-<img class="profilepic" src="IMG.png" style="max-width: 100%; width: auto; height: auto;"></img>
+<div class="img-container">
+<img class="pic" src="IMG.png" style="max-width: 100%; width: auto; height: auto;"></img>
 <i ng-click="goDown()" class="darkcolor fa fa-chevron-down"></i>
 </div>	
 
